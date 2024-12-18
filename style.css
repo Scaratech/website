@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'head'; /*a name to be used later*/
+    src: url('/boxy-bold.ttf'); /*URL to font*/
+}
+
+@font-face {
+font-family: 'Excel';
+src: url(http://metalvalley.neocities.org/dreamytest/Excelorate.woff);
+}
+
+@font-face {
+    font-family: 'main'; /*a name to be used later*/
+    src: url('/PIXEARG_.TTF'); /*URL to font*/
+}
+
+.example::-webkit-scrollbar {
+    display: none;
+}
+body {
+    background-image: url("/img/bgfr.png");
+    font-family: "MS UI Gothic", Tahoma;
+    ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.page {
+    padding-top: 20vh;
+}
+
+.title {
+    background-color: #F0C1E1;
+    border-style: double;
+    border-color: #CB9DF0;
+    width: fit-content;
+    height: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    float: left;
+    margin: none;
+}
+
+.title > h1 {
+    margin: none;
+    padding: none;
+}
+
+.titlebox {
+    width: 50vw;
+    height: 85px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    margin-left: -5px;
+}
+
+h1 {
+    font-family: 'head';
+    font-size: 35px;
+    color: #9871b8;
+}
+
+.content {
+    width: 50vw;
+    min-height: 30em;
+    background: #FDCEDF;
+    border-style: double;
+    border-color: #F2BED1;
+}
+
+.left {
+    float:left;
+    padding: 10px;
+}
+
+.left > p {
+    color: #533969;
+}
+
+.right {
+    width: 500px;
+    margin:10px;
+    margin-left: 200px;
+    height: 500px;
+}
+
+h2 {
+    font-size: 15px;
+    margin-top: 20px
+}
+
+.body {
+    width: 500px;
+    border-style: dotted;
+    border-color:#9871b8;
+    border-width: 1px;
+    height: 450px;
+    overflow: scroll;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    padding: 3px;
+    color: #533969;
+}
+
+.pfp {
+    width: 180px;
+    height: 180px;
+    border-color: #9871b8;
+    border-style: dotted;
+    border-width: 1px;
+    padding: 2px;
+    background-color: #F2BED1;
+}
